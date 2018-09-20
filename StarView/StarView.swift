@@ -45,7 +45,7 @@ import UIKit
         layoutStars()
     }
     
-    func layoutStars() {
+    private func layoutStars() {
         self.subviews.forEach { $0.removeFromSuperview() }
         buttons = []
         buttonOnStates = []
@@ -77,7 +77,7 @@ import UIKit
         toggleButton(number: sender.tag)
     }
     
-    func toggleButton(number: Int) {
+    private func toggleButton(number: Int) {
         buttonOnStates[number] = !buttonOnStates[number]
         let newNormalImage = buttonOnStates[number] ? highlightedImage : normalImage
         buttons[number].setImage(newNormalImage, for: .normal)
