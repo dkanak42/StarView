@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05DBFF3C2153E49700008BAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DBFF3B2153E49700008BAE /* AppDelegate.swift */; };
+		05DBFF3E2153E49700008BAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DBFF3D2153E49700008BAE /* ViewController.swift */; };
+		05DBFF412153E49700008BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DBFF3F2153E49700008BAE /* Main.storyboard */; };
+		05DBFF432153E49700008BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DBFF422153E49700008BAE /* Assets.xcassets */; };
+		05DBFF462153E49700008BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DBFF442153E49700008BAE /* LaunchScreen.storyboard */; };
+		05DBFF512153E49700008BAE /* StarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DBFF502153E49700008BAE /* StarViewTests.swift */; };
+		05DBFF5C2153E49700008BAE /* StarViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DBFF5B2153E49700008BAE /* StarViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05DBFF4D2153E49700008BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DBFF302153E49700008BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DBFF372153E49700008BAE;
+			remoteInfo = StarView;
+		};
+		05DBFF582153E49700008BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DBFF302153E49700008BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DBFF372153E49700008BAE;
+			remoteInfo = StarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05DBFF382153E49700008BAE /* StarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DBFF3B2153E49700008BAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05DBFF3D2153E49700008BAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05DBFF402153E49700008BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05DBFF422153E49700008BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05DBFF452153E49700008BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05DBFF472153E49700008BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DBFF4C2153E49700008BAE /* StarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DBFF502153E49700008BAE /* StarViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewTests.swift; sourceTree = "<group>"; };
+		05DBFF522153E49700008BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DBFF572153E49700008BAE /* StarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DBFF5B2153E49700008BAE /* StarViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewUITests.swift; sourceTree = "<group>"; };
+		05DBFF5D2153E49700008BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05DBFF352153E49700008BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DBFF492153E49700008BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DBFF542153E49700008BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DBFF2F2153E49700008BAE = {
+			isa = PBXGroup;
+			children = (
+				05DBFF3A2153E49700008BAE /* StarView */,
+				05DBFF4F2153E49700008BAE /* StarViewTests */,
+				05DBFF5A2153E49700008BAE /* StarViewUITests */,
+				05DBFF392153E49700008BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05DBFF392153E49700008BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DBFF382153E49700008BAE /* StarView.app */,
+				05DBFF4C2153E49700008BAE /* StarViewTests.xctest */,
+				05DBFF572153E49700008BAE /* StarViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05DBFF3A2153E49700008BAE /* StarView */ = {
+			isa = PBXGroup;
+			children = (
+				05DBFF3B2153E49700008BAE /* AppDelegate.swift */,
+				05DBFF3D2153E49700008BAE /* ViewController.swift */,
+				05DBFF3F2153E49700008BAE /* Main.storyboard */,
+				05DBFF422153E49700008BAE /* Assets.xcassets */,
+				05DBFF442153E49700008BAE /* LaunchScreen.storyboard */,
+				05DBFF472153E49700008BAE /* Info.plist */,
+			);
+			path = StarView;
+			sourceTree = "<group>";
+		};
+		05DBFF4F2153E49700008BAE /* StarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				05DBFF502153E49700008BAE /* StarViewTests.swift */,
+				05DBFF522153E49700008BAE /* Info.plist */,
+			);
+			path = StarViewTests;
+			sourceTree = "<group>";
+		};
+		05DBFF5A2153E49700008BAE /* StarViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05DBFF5B2153E49700008BAE /* StarViewUITests.swift */,
+				05DBFF5D2153E49700008BAE /* Info.plist */,
+			);
+			path = StarViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05DBFF372153E49700008BAE /* StarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DBFF602153E49700008BAE /* Build configuration list for PBXNativeTarget "StarView" */;
+			buildPhases = (
+				05DBFF342153E49700008BAE /* Sources */,
+				05DBFF352153E49700008BAE /* Frameworks */,
+				05DBFF362153E49700008BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarView;
+			productName = StarView;
+			productReference = 05DBFF382153E49700008BAE /* StarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05DBFF4B2153E49700008BAE /* StarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DBFF632153E49700008BAE /* Build configuration list for PBXNativeTarget "StarViewTests" */;
+			buildPhases = (
+				05DBFF482153E49700008BAE /* Sources */,
+				05DBFF492153E49700008BAE /* Frameworks */,
+				05DBFF4A2153E49700008BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DBFF4E2153E49700008BAE /* PBXTargetDependency */,
+			);
+			name = StarViewTests;
+			productName = StarViewTests;
+			productReference = 05DBFF4C2153E49700008BAE /* StarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05DBFF562153E49700008BAE /* StarViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DBFF662153E49700008BAE /* Build configuration list for PBXNativeTarget "StarViewUITests" */;
+			buildPhases = (
+				05DBFF532153E49700008BAE /* Sources */,
+				05DBFF542153E49700008BAE /* Frameworks */,
+				05DBFF552153E49700008BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DBFF592153E49700008BAE /* PBXTargetDependency */,
+			);
+			name = StarViewUITests;
+			productName = StarViewUITests;
+			productReference = 05DBFF572153E49700008BAE /* StarViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05DBFF302153E49700008BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Damian Kanak";
+				TargetAttributes = {
+					05DBFF372153E49700008BAE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					05DBFF4B2153E49700008BAE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05DBFF372153E49700008BAE;
+					};
+					05DBFF562153E49700008BAE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05DBFF372153E49700008BAE;
+					};
+				};
+			};
+			buildConfigurationList = 05DBFF332153E49700008BAE /* Build configuration list for PBXProject "StarView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05DBFF2F2153E49700008BAE;
+			productRefGroup = 05DBFF392153E49700008BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05DBFF372153E49700008BAE /* StarView */,
+				05DBFF4B2153E49700008BAE /* StarViewTests */,
+				05DBFF562153E49700008BAE /* StarViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DBFF362153E49700008BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DBFF462153E49700008BAE /* LaunchScreen.storyboard in Resources */,
+				05DBFF432153E49700008BAE /* Assets.xcassets in Resources */,
+				05DBFF412153E49700008BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DBFF4A2153E49700008BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DBFF552153E49700008BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05DBFF342153E49700008BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DBFF3E2153E49700008BAE /* ViewController.swift in Sources */,
+				05DBFF3C2153E49700008BAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DBFF482153E49700008BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DBFF512153E49700008BAE /* StarViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DBFF532153E49700008BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DBFF5C2153E49700008BAE /* StarViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05DBFF4E2153E49700008BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DBFF372153E49700008BAE /* StarView */;
+			targetProxy = 05DBFF4D2153E49700008BAE /* PBXContainerItemProxy */;
+		};
+		05DBFF592153E49700008BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DBFF372153E49700008BAE /* StarView */;
+			targetProxy = 05DBFF582153E49700008BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05DBFF3F2153E49700008BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DBFF402153E49700008BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05DBFF442153E49700008BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DBFF452153E49700008BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05DBFF5E2153E49700008BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05DBFF5F2153E49700008BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DBFF612153E49700008BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AK2M88EQH;
+				INFOPLIST_FILE = StarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution42.StarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05DBFF622153E49700008BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AK2M88EQH;
+				INFOPLIST_FILE = StarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution42.StarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05DBFF642153E49700008BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AK2M88EQH;
+				INFOPLIST_FILE = StarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution42.StarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarView.app/StarView";
+			};
+			name = Debug;
+		};
+		05DBFF652153E49700008BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AK2M88EQH;
+				INFOPLIST_FILE = StarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution42.StarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarView.app/StarView";
+			};
+			name = Release;
+		};
+		05DBFF672153E49700008BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AK2M88EQH;
+				INFOPLIST_FILE = StarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution42.StarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarView;
+			};
+			name = Debug;
+		};
+		05DBFF682153E49700008BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AK2M88EQH;
+				INFOPLIST_FILE = StarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution42.StarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DBFF332153E49700008BAE /* Build configuration list for PBXProject "StarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DBFF5E2153E49700008BAE /* Debug */,
+				05DBFF5F2153E49700008BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DBFF602153E49700008BAE /* Build configuration list for PBXNativeTarget "StarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DBFF612153E49700008BAE /* Debug */,
+				05DBFF622153E49700008BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DBFF632153E49700008BAE /* Build configuration list for PBXNativeTarget "StarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DBFF642153E49700008BAE /* Debug */,
+				05DBFF652153E49700008BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DBFF662153E49700008BAE /* Build configuration list for PBXNativeTarget "StarViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DBFF672153E49700008BAE /* Debug */,
+				05DBFF682153E49700008BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05DBFF302153E49700008BAE /* Project object */;
+}
