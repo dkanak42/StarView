@@ -16,6 +16,8 @@ import UIKit
     
     private var buttons = [UIButton]()
     
+    var buttonPressed : (Int)->Void = { (n: Int) in print("button pressed \(n)") }
+    
     /*
      // Only override draw() if you perform custom drawing.
      // An empty implementation adversely affects performance during animation.
@@ -32,6 +34,16 @@ import UIKit
         super.init(coder: aDecoder)
     }
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        layoutStars()
+    }
+    
+    override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        layoutStars()
+    }
+    
     func layoutStars() {
         self.subviews.forEach { $0.removeFromSuperview() }
         
@@ -45,20 +57,19 @@ import UIKit
             button.setImage(normalImage, for: .normal)
             button.setImage(highlightedImage, for: .selected)
             button.setImage(highlightedImage, for: .highlighted)
+            button.tag = buttonNumber
+            
+            button.addTarget(self,
+                             action:#selector(StarView.buttonDidTap(_:)),
+                             for: .touchUpInside)
             
             buttons.append(button)
             self.addSubview(button)
         }
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        layoutStars()
-    }
-    
-    override func prepareForInterfaceBuilder() {
-        super.prepareForInterfaceBuilder()
-        layoutStars()
+    @objc func buttonDidTap(_ sender: UIButton) {
+        buttonPressed(sender.tag)
     }
 }
 
