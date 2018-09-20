@@ -14,6 +14,7 @@
 		05DBFF462153E49700008BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DBFF442153E49700008BAE /* LaunchScreen.storyboard */; };
 		05DBFF512153E49700008BAE /* StarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DBFF502153E49700008BAE /* StarViewTests.swift */; };
 		05DBFF5C2153E49700008BAE /* StarViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DBFF5B2153E49700008BAE /* StarViewUITests.swift */; };
+		05DBFF6A2153E4AA00008BAE /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DBFF692153E4AA00008BAE /* StarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		05DBFF572153E49700008BAE /* StarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DBFF5B2153E49700008BAE /* StarViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewUITests.swift; sourceTree = "<group>"; };
 		05DBFF5D2153E49700008BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DBFF692153E4AA00008BAE /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				05DBFF3B2153E49700008BAE /* AppDelegate.swift */,
 				05DBFF3D2153E49700008BAE /* ViewController.swift */,
 				05DBFF3F2153E49700008BAE /* Main.storyboard */,
+				05DBFF692153E4AA00008BAE /* StarView.swift */,
 				05DBFF422153E49700008BAE /* Assets.xcassets */,
 				05DBFF442153E49700008BAE /* LaunchScreen.storyboard */,
 				05DBFF472153E49700008BAE /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05DBFF6A2153E4AA00008BAE /* StarView.swift in Sources */,
 				05DBFF3E2153E49700008BAE /* ViewController.swift in Sources */,
 				05DBFF3C2153E49700008BAE /* AppDelegate.swift in Sources */,
 			);
