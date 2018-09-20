@@ -15,6 +15,7 @@ import UIKit
     @IBInspectable var highlightedImage : UIImage = UIImage()
     
     private var buttons = [UIButton]()
+    private var buttonOnStates = [Bool]()
     
     var buttonPressed : (Int)->Void = { (n: Int) in print("button pressed \(n)") }
     
@@ -46,6 +47,8 @@ import UIKit
     
     func layoutStars() {
         self.subviews.forEach { $0.removeFromSuperview() }
+        buttons = []
+        buttonOnStates = []
         
         for buttonNumber in 0..<numberOfStars {
             let buttonWidth = self.frame.width / CGFloat(numberOfStars)
@@ -64,12 +67,20 @@ import UIKit
                              for: .touchUpInside)
             
             buttons.append(button)
+            buttonOnStates.append(false)
             self.addSubview(button)
         }
     }
     
     @objc func buttonDidTap(_ sender: UIButton) {
         buttonPressed(sender.tag)
+        toggleButton(number: sender.tag)
+    }
+    
+    func toggleButton(number: Int) {
+        buttonOnStates[number] = !buttonOnStates[number]
+        let newNormalImage = buttonOnStates[number] ? highlightedImage : normalImage
+        buttons[number].setImage(newNormalImage, for: .normal)
     }
 }
 
