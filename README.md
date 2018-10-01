@@ -19,6 +19,9 @@ To add initial star buttons to a superview you will need to go through following
 3. Calculate frame for each star view
 4. Add UIButtons as subviews to StarView
 
+To make this excersise a bit easier I have added a [Playground](https://github.com/dkanak42/StarView/tree/master/ViewDrawingPlayground.playground) which contains examples of laying out subviews. Since UIButton is inherited from UIView (`UIView <- UIControl <- UIButton` to be precise) it uses the same functions for laying out as UIView.
+
+
 ## 2. Setting up state
 
 We need to control which star is highlighted and which is not. To do this we need a function that sets this state
