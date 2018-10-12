@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
-        <page name='Addung subviews by frame coordinates'/>
+        <page name='Adding subviews by frame coordinates'/>
         <page name='composite view challenge'/>
         <page name='composite view final'/>
     </pages>
